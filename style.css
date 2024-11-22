@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    width: fit-content;
+    height: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+input{
+    width: 100%;
+}
+
+button { 
+    align-self: flex-end;
+}
+
+#name-id, #size { 
+    display: flex;
+    gap: 10px;
+  }
